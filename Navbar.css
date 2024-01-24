@@ -1,0 +1,99 @@
+.for-navbar {
+    display: flex;
+    justify-content: center;
+
+}
+
+.navbar {
+    border-radius: 25px;
+    border: 5px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 40px;
+}
+
+.for-tabs {
+    display: table;
+
+}
+
+.tabs {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 10px;
+    font-family: Andale Mono;
+    text-align: center;
+    color: black;
+    padding-left: 50px;
+    padding-right: 50px;
+    user-select: none;
+}
+
+.tabs:hover {
+    cursor: pointer;
+}
+
+.active:hover {
+    cursor: pointer;
+}
+
+/*
+new idea for the sliding part...
+have the 'active' thing just be the white font
+while the black with border radius be one div that 
+changes position to the div it is clicked to
+.active {
+    border-radius: 20px;
+    background-color: black;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: Andale Mono;
+    text-align: center;
+    color: white !important;
+}
+*/
+
+.for-slider {
+    position: relative;
+}
+
+.slider {
+    border-radius: 25px;
+    position: absolute;
+    z-index: -1;
+    height: 50px;
+    width: 169px;
+    background-color: black;
+    top: 0%;
+    left: 0%;
+    transition: 0.25s ease-out;
+}
+
+.active {
+    display: table-cell;
+    vertical-align: middle;
+    font-family: Andale Mono;
+    text-align: center;
+    color: white !important;
+    user-select: none;
+}
+
+/* this was added when the first tab changed
+from "personal" to "intro" remove if you want to 
+go back to the original tab name */
+#projects {
+    padding-left: 60px;
+}
+
+@media screen and (max-width: 550px) {
+    .tabs {
+        padding-left: 20px;
+        padding-right: 20px;
+        font-family: monospace;
+    }
+
+    .slider {
+        width: 105px;
+    }
+}

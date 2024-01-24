@@ -1,0 +1,37 @@
+.personal {
+    display: grid;
+    place-items: center;
+    height: 30vh;
+  }
+
+  .text {
+    width: 19ch;
+    font-size: 3em;
+    font-family: monospace;
+    animation: typing 2s steps(19), blink .8s step-end infinite;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+
+  }
+
+  .text-hi {
+    display: flex;
+    justify-content: center;
+    font-size: 3em;
+    font-family: monospace;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+  @keyframes typing {
+    from {
+        width: 0;
+    }
+  }
+
+  @keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+  }
