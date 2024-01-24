@@ -22,7 +22,8 @@
     display: table-cell;
     vertical-align: middle;
     padding: 10px;
-    font-family: Andale Mono;
+    font-family: Helvetica;
+    font-weight: bold;
     text-align: center;
     color: black;
     padding-left: 50px;
@@ -63,7 +64,7 @@ changes position to the div it is clicked to
     position: absolute;
     z-index: -1;
     height: 50px;
-    width: 169px;
+    width: 179px;
     background-color: black;
     top: 0%;
     left: 0%;
@@ -73,7 +74,7 @@ changes position to the div it is clicked to
 .active {
     display: table-cell;
     vertical-align: middle;
-    font-family: Andale Mono;
+    font-family: Helvetica;
     text-align: center;
     color: white !important;
     user-select: none;
