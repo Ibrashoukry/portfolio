@@ -1,6 +1,14 @@
 @import "Navbar.css";
 @import "personal-tab.css";
+@import "about-me.css";
 
 :root {
     background-color: #fdfcee;
+}
+
+html,
+body {
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
 }
