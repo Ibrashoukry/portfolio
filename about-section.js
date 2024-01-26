@@ -1,4 +1,4 @@
-const elementsToFadeIn = document.querySelectorAll(".fade");
+const elementsToFadeIn = document.querySelectorAll(".invisible");
 if (elementsToFadeIn) {
   window.addEventListener("scroll", function(event) {
     elementsToFadeIn.forEach(function(element) {

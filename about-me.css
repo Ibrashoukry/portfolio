@@ -1,21 +1,30 @@
 .about-section {
-    height: 70vh;
+    height: 100vh;
     background-color: black;
-    border-top-left-radius: 80px;
-    border-top-right-radius: 80px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
 }
 
 .projects-section {
-    height: 70vh;
-    border-top-left-radius: 80px;
-    border-top-right-radius: 80px;
-    background-color: lightcoral;
+  height: 100vh;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  margin-top: -30vh;
+  background-color: #fdfcee;
+}
+
+.contact-section {
+  height: 70vh;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  margin-top: -30vh;
+  background-color: black;
 }
 
 @keyframes fadeInUp {
     from {
-      transform: translateY(50px);
-      opacity: 0;
+      transform: translateY(50vh);
+      opacity: 1;
     }
     to {
       transform: translateY(0);
@@ -23,6 +32,19 @@
     }
   }
   .fade-in-up {
-    animation: 0.75s both fadeInUp;
+    animation: 0.5s both fadeInUp;
   }
 
+.title {
+  font-size: 25px;
+  font-family: Helvetica;
+  font-weight: bold;
+  color: white;
+  padding-left: 50px;
+  padding-top: 40px;
+
+}
+
+.invisible {
+  opacity: 0;
+}
