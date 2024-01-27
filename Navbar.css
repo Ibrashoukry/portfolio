@@ -1,7 +1,21 @@
+.bg {
+    z-index: -2;
+    background-color: #fdfcee;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+}
+
 .for-navbar {
     display: flex;
     justify-content: center;
+}
 
+.sticky {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
 }
 
 .navbar {
@@ -15,7 +29,6 @@
 
 .for-tabs {
     display: table;
-
 }
 
 .tabs {
@@ -89,12 +102,24 @@ go back to the original tab name */
 
 @media screen and (max-width: 550px) {
     .tabs {
-        padding-left: 20px;
-        padding-right: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
         font-family: monospace;
     }
 
     .slider {
-        width: 105px;
+        width: 120px;
+    }
+
+    #projects-tab {
+        padding-right: 20px;
+    }
+
+    #about-tab {
+        padding-left: 15px;
+    }
+
+    #contact-tab {
+        padding-right: 25px;
     }
 }

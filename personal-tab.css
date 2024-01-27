@@ -35,3 +35,13 @@
         border-color: transparent;
     }
   }
+
+  @media screen and (max-width: 550px) {
+    .text-hi {
+      font-size: 2em;
+    }
+
+    .text {
+      font-size: 2em;
+    }
+  }
