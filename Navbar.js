@@ -22,10 +22,18 @@ function toActive() {
 
     /* this part changes the location of the slider according
     to which tab is being selected */
-    if (this === personal) { slider.style.left = '0%'; }
-    else if (this === projects) { slider.style.left = '33%'; }
-    else { slider.style.left = '66%'; }
+    if (this === personal) { slider.style.left = '0%'; 
+        document.getElementById('about').scrollIntoView();
+        
+    }
+    else if (this === projects) { slider.style.left = '33%'; 
+        document.getElementById('pr-tab').scrollIntoView();
+    }
+    else { slider.style.left = '66%'; 
+        document.getElementById('ct-tab').scrollIntoView();
+    }
 
     /* this activates the active class */
     this.classList.add('active');
+ 
 }
