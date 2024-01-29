@@ -1,5 +1,5 @@
 .about-section {
-    height: 100vh;
+    height: 140vh;
     background-color: black;
     border-top-left-radius: 40px;
     border-top-right-radius: 40px;
@@ -24,15 +24,30 @@
 @keyframes fadeInUp {
     from {
       transform: translateY(50vh);
-      opacity: 1;
     }
+
+    50% {
+      transform: translateY(-2vh);
+    }
+
     to {
       transform: translateY(0);
-      opacity: 1;
     }
   }
+
+  @keyframes fadeInDown {
+    from {
+      transform: translateY(0);
+    }
+
+    to {
+      transform: translateY(50vh);
+    }
+  }
+
+
   .fade-in-up {
-    animation: 0.5s both fadeInUp;
+    animation: 0.5s both ease-in-out fadeInUp;
   }
 
 .title {
@@ -46,5 +61,5 @@
 }
 
 .invisible {
-  opacity: 0;
+  animation: 0.5s both ease-in-out fadeInDown;
 }
