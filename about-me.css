@@ -60,9 +60,10 @@ p {
 }
 
 .resume {
+  border: 5px solid #fdfcee;
   margin-top: 20px;
   background-color: black;
-  color: white;
+  color: #fdfcee;
   border-radius: 200px;
   padding: 20px;
   padding-top: 10px;
@@ -77,7 +78,6 @@ p {
 .resume:hover {
   background-color: #fdfcee;
   color: black;
-  font-weight: 500;
   cursor: pointer;
 
 }
