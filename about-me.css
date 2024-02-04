@@ -52,7 +52,7 @@ p {
 }
 
 .for-profile {
-  width: 30%;
+  width: 30vw;
   display: flex;
   align-items: center;
   flex-direction: column;
