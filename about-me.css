@@ -1,11 +1,11 @@
 .about-section {
-    height: 100vh;
-    background-color: black;
-    border-top-left-radius: 40px;
-    border-top-right-radius: 40px;
-    transform: translateY(50vh);
-    overflow: hidden;
-    position: relative;
+  height: 100vh;
+  background-color: black;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  transform: translateY(50vh);
+  overflow: hidden;
+  position: relative;
 }
 
 .projects-section {
@@ -27,7 +27,7 @@
 
 p {
   color: white;
-  font-size: 2.3vh;
+  font-size: 24px;
   font-family: Helvetica;
   font-weight: lighter;
   margin: 5vh;
@@ -38,31 +38,42 @@ p {
   margin-top: 3vh;
 }
 
-img {
-  border-radius: 25px;
-  padding: 5px;
-  width: 40vw;
-  margin-left: 2vh;
-  margin-top: 3vh;
+.tab-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-a {
+.profile {
+  border-radius: 5%;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.for-profile {
+  margin-top: -30px;
+  max-width: 25%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.resume {
+  margin-top: 10px;
   background-color: black;
   color: white;
   border-radius: 200px;
-  padding: 40px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   font-weight: bold;
   float: left;
   font-family: Helvetica;
-  margin-top: 5vh;
-  margin-left: 13vh;
   text-decoration: none;
-  font-size: 30px;
+  font-size: 24px;
 }
 
-a:hover {
+.resume:hover {
   background-color: #fdfcee;
   color: black;
   cursor: pointer;
@@ -99,7 +110,7 @@ a:hover {
   }
 
 .title {
-  font-size: 32px;
+  font-size: 25px;
   font-family: Helvetica;
   font-weight: bold;
   color: white;
@@ -109,7 +120,7 @@ a:hover {
 }
 
 .black-title {
-  font-size: 32px;
+  font-size: 25px;
   font-family: Helvetica;
   font-weight: bold;
   color: black;
