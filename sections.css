@@ -9,7 +9,7 @@
 }
 
 .projects-section {
-  height: 25vh;
+  height: fit-content;
   border-top-left-radius: 40px;
   border-top-right-radius: 40px;
   margin-top: -5vh;
@@ -21,7 +21,7 @@
   height: 25vh;
   border-top-left-radius: 40px;
   border-top-right-radius: 40px;
-  margin-top: -5vh;
+  margin-top: -2vh;
   background-color: black;
 }
 
@@ -80,6 +80,21 @@ p {
   color: black;
   cursor: pointer;
 
+}
+
+.for-boxes {
+  display: flex;
+  margin-bottom: 5vh;
+  justify-content: space-around;
+}
+
+.project-box {
+  margin-top: 2vh;
+  border: 8px solid black;
+  border-radius: 25px;
+  font-family: Helvetica;
+  font-size: large;
+  padding: 100px;
 }
 
 @keyframes fadeInUp {
