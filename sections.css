@@ -18,11 +18,18 @@
 }
 
 .contact-section {
-  height: 25vh;
+  height: fit-content;
   border-top-left-radius: 40px;
   border-top-right-radius: 40px;
   margin-top: -2vh;
   background-color: black;
+}
+
+h2 {
+  color: black;  
+  font-size: 24px;
+  font-family: Helvetica;
+  font-weight: normal;
 }
 
 p {
@@ -36,6 +43,14 @@ p {
   float: left;
   margin-left: 3.5vh;
   margin-top: 3vh;
+}
+
+.p-dark {
+  color: black;
+  margin-left: 0;
+  margin-top: 0;
+  margin-bottom: 8vh;
+  width: 100%;
 }
 
 .tab-content {
@@ -82,19 +97,34 @@ p {
 
 }
 
-.for-boxes {
-  display: flex;
-  margin-bottom: 5vh;
-  justify-content: space-around;
+.project-link {
+  border-bottom: 5px solid #fdfcee;
+  margin-top: 20px;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+  color: black;
+  font-weight: normal;
+  float: left;
+  font-family: Helvetica;
+  text-decoration: none;
+  font-size: 24px;
 }
 
-.project-box {
-  margin-top: 2vh;
-  border: 8px solid black;
-  border-radius: 25px;
-  font-family: Helvetica;
-  font-size: large;
-  padding: 100px;
+.project-link:hover {
+  border-bottom: 5px solid black;
+  cursor: pointer;
+
+}
+
+.for-boxes {
+  height: fit-content;
+  display: inline-block;
+  padding: 8vh;
+  padding-top: 3vh;
+}
+
+.project-details {
+  width: 100%;
 }
 
 @keyframes fadeInUp {
@@ -167,4 +197,5 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 95vh;
 }

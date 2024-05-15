@@ -81,7 +81,7 @@ changes position to the div it is clicked to
     background-color: black;
     top: 0%;
     left: 0%;
-    transition: 0.25s ease-out;
+    transition: 0.3s ease-out;
 }
 
 .active {
