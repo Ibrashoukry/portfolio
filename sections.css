@@ -1,0 +1,211 @@
+.about-section {
+  height: fit-content;
+  background-color: black;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  transform: translateY(50vh);
+  overflow: hidden;
+  position: relative;
+}
+
+.projects-section {
+  height: fit-content;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  margin-top: -5vh;
+  background-color: #fdfcee;
+  color: black !important;
+}
+
+.contact-section {
+  height: fit-content;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  margin-top: -2vh;
+  background-color: black;
+}
+
+h2 {
+  color: black;  
+  font-size: 24px;
+  font-family: Helvetica;
+  font-weight: normal;
+}
+
+p {
+  color: white;
+  font-size: 24px;
+  font-family: Helvetica;
+  font-weight: lighter;
+  margin: 5vh;
+  line-height: 2;
+  width: 40vw;
+  float: left;
+  margin-left: 3.5vh;
+  margin-top: 3vh;
+}
+
+.p-dark {
+  color: black;
+  margin-left: 0;
+  margin-top: 0;
+  margin-bottom: 8vh;
+  width: 100%;
+}
+
+.tab-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10vh;
+}
+
+.profile {
+  border-radius: 5%;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.for-profile {
+  width: 30vw;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 50px;
+}
+
+.resume {
+  border: 5px solid #fdfcee;
+  margin-top: 20px;
+  background-color: black;
+  color: #fdfcee;
+  border-radius: 200px;
+  padding: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: lighter;
+  float: left;
+  font-family: Helvetica;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.resume:hover {
+  animation: normal ;
+  background-color: #fdfcee;
+  color: black;
+  cursor: pointer;
+
+}
+
+.project-link {
+  border-bottom: 5px solid #fdfcee;
+  margin-top: 20px;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+  color: black;
+  font-weight: normal;
+  float: left;
+  font-family: Helvetica;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.project-link:hover {
+  border-bottom: 5px solid black;
+  animation: fadeInLeft 0.2s ;
+  cursor: pointer;
+
+}
+
+@keyframes fadeInLeft {
+  from {
+    border-color: #fdfcee;
+  }
+  to {
+    border-color: black;
+  }
+}
+
+.for-boxes {
+  height: fit-content;
+  display: inline-block;
+  padding: 8vh;
+  padding-top: 3vh;
+}
+
+.project-details {
+  width: 100%;
+}
+
+@keyframes fadeInUp {
+    from {
+      transform: translateY(50vh);
+    }
+
+    50% {
+      transform: translateY(-13vh);
+    } 
+
+    to {
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes fadeInDown {
+    from {
+      transform: translateY(0);
+    }
+
+    to {
+      transform: translateY(50vh);
+    }
+  }
+
+  .fade-in-up {
+    animation: 0.5s both ease-in-out fadeInUp;
+  }
+
+.title {
+  font-size: 25px;
+  font-family: Helvetica;
+  font-weight: bold;
+  color: white;
+  padding-left: 50px;
+  padding-top: 40px;
+
+}
+
+.black-title {
+  font-size: 25px;
+  font-family: Helvetica;
+  font-weight: bold;
+  color: black;
+  padding-left: 50px;
+  padding-top: 40px;
+}
+
+.invisible {
+  animation: 0.5s ease-in-out fadeInDown;
+}
+
+.fas, .fab {
+  color: white;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.icon {
+  font-size: 50px;
+}
+
+.icon:hover {
+  cursor: pointer;
+}
+
+.tab-content-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 95vh;
+}

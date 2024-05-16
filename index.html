@@ -6,7 +6,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="design.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>Ibrahim Shoukry</title>
 </head>
 
 <body>
@@ -36,15 +37,55 @@
         <div class="text">I'm Ibrahim Shoukry</div>
         </div>
     </div>
-
+    <div id="locate"></div>
     <div  id="about" class="fade about-section">
-        <div class="title">ABOUT ME</div>
+        <div id="personalTitle" class="title">ABOUT ME</div>
+        <div class="tab-content">
+        <p>
+            I'm currently a student at University of California, Berkeley studying Electrical Engineering and 
+            Computer Science, B.S.. I have many interests including Computer Science, film photography, graphic design,
+            circuit design, marine conservation and much more. Throughout my life I have always and still am
+            working towards my passions.
+        </p>
+        <div class="for-profile">
+            <img class="profile" src="assets/profile.jpg" alt="profile">
+            <a class="resume" href="assets/resume.pdf">RESUME</a>
+        </div>
+        </div>
     </div>
     <div id="pr-tab" class="fade projects-section">
-        <div class="black-title">PROJECTS</div>
+        <div id="projectsTitle" class="black-title">PROJECTS</div>
+        <div class="for-boxes">
+            <div class="project-details">
+                <h2><a class="project-link" href="https://projectbracket.webflow.io/post/team-boolean-hooligans-dvc-chatbot">Counseling Chatbot</a></h2>
+                <p class="p-dark">Have you ever had a quick question to ask a counselor but didn't have the time to go meet with one? A chatbot may be your solution!
+                     <b>This project models a digital counselor that can 
+                    automatically answer DVC/community college students' straightforward questions.</b> 
+                    The program makes use of a convolutional neural network, built with TensorFlow Keras, 
+                    along with natural language processing and deep learning techniques to detect and respond 
+                    to queries. The user can then directly input their question and receive a response immediately.</p>
+            </div>
+            <div class="project-details">
+                <h2><a class="project-link" href="https://devpost.com/software/onemusic">OneMusic</a></h2>
+                <p class="p-dark">OneMusic is the ultimate solution to effortlessley transferring music playlists between 
+                    platforms like Youtube Music and Spotify. <b>It elminates the hassle of manually recreating playlists 
+                    making it as simple as connecting your account, selecting the playlists, and finally syncing.</b> React was
+                    used for the frontend and used Spotify and Google Cloud Platform APIs to enable authentication and playlist 
+                    transfer.
+                </p>
+            </div>
+        </div>
     </div>
     <div id="ct-tab" class="fade contact-section">
-        <div class="title">CONTACT</div>
+        <div id="contactTitle" class="title">CONTACT</div>
+        <div class="tab-content-icons">
+        <a href="https://github.com/Ibrashoukry" class="icon" target="_blank">
+            <i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/ibrahim-shoukry-3478b0237/" class="icon" target="_blank">
+            <i class="fab fa-linkedin"></i></a>
+        <a href="mailto:ibrahim.m.shoukry@gmail.com" class="icon">
+            <i class="fas fa-envelope"></i></a>
+        </div>
     </div>
 
     <script src="Navbar.js"></script>
