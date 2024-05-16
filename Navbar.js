@@ -59,7 +59,7 @@ function toActive() {
     /* this part changes the location of the slider according
     to which tab is being selected */
     if (this === personal) { slider.style.left = '0%'; 
-        document.getElementById('about').scrollIntoView();
+        document.getElementById('locate').scrollIntoView();
         
     }
     else if (this === projects) { slider.style.left = '33%'; 

@@ -57,7 +57,7 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 16vh;
+  padding: 10vh;
 }
 
 .profile {
@@ -91,6 +91,7 @@ p {
 }
 
 .resume:hover {
+  animation: normal ;
   background-color: #fdfcee;
   color: black;
   cursor: pointer;
@@ -112,8 +113,18 @@ p {
 
 .project-link:hover {
   border-bottom: 5px solid black;
+  animation: fadeInLeft 0.2s ;
   cursor: pointer;
 
+}
+
+@keyframes fadeInLeft {
+  from {
+    border-color: #fdfcee;
+  }
+  to {
+    border-color: black;
+  }
 }
 
 .for-boxes {
@@ -133,7 +144,7 @@ p {
     }
 
     50% {
-      transform: translateY(-10vh);
+      transform: translateY(-13vh);
     } 
 
     to {
@@ -150,7 +161,6 @@ p {
       transform: translateY(50vh);
     }
   }
-
 
   .fade-in-up {
     animation: 0.5s both ease-in-out fadeInUp;
