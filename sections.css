@@ -207,5 +207,6 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 95vh;
+  margin-bottom: 30px;
+  height: fit-content;
 }

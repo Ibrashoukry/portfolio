@@ -1,6 +1,7 @@
 @import "Navbar.css";
 @import "introduction.css";
 @import "sections.css";
+@import "form.css";
 
 :root {
     background-color: #fdfcee;
