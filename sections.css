@@ -186,7 +186,7 @@ p {
 }
 
 .invisible {
-  animation: 0.5s ease-in-out fadeInDown;
+  animation: 0.25s ease-in-out fadeInDown;
 }
 
 .fas, .fab {
@@ -207,6 +207,6 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
   height: fit-content;
 }

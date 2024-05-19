@@ -41,8 +41,8 @@
   }
 
   .message-input {
-    width: 500px;
-    height: 250px;
+    width: 60vw;
+    height: 45vh;
     border-radius: 5px;
     border: 2px solid var(--main-color);
     background-color: var(--bg-color);
@@ -65,7 +65,7 @@
 
   }
   
-  .name-input:focus {
+  .name-input:focus, .message-input:focus {
     border: 2px solid var(--input-focus);
   }
   
@@ -101,7 +101,7 @@
   }
   
   .button-confirm {
-    margin: 50px auto 0 auto;
+    margin: 0 auto 0 auto;
     width: 120px;
     height: 40px;
     border-radius: 5px;
