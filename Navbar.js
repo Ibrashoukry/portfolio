@@ -20,8 +20,8 @@ function isInViewport(element) {
     var rect = element.getBoundingClientRect();
     var html = document.documentElement;
     return (
-        rect.top >= 0 &&
-        rect.left >= 0 &&
+        rect.top >= -1 &&
+        rect.left >= -1 &&
         rect.bottom <= (window.innerHeight/3 || html.clientHeight/3) &&
         rect.right <= (window.innerWidth || html.clientWidth)
     );
